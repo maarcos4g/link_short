@@ -1,0 +1,28 @@
+.containerLink {
+    max-width: 1120px;
+    margin: 32px auto 0 auto;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    color: var(--white);
+}
+
+.header svg {
+    margin-right: 18px;
+}
+
+
+/* RESPONSIVIDADE */
+
+@media (max-width: 715px) {
+    .containerLink {
+        width: 90%;
+    }
+
+    .containerLink h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+}

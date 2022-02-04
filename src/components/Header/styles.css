@@ -1,0 +1,30 @@
+.containerHeader {
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    font-weight: bold;
+    display: flex;
+}
+
+.containerHeader a {
+    text-decoration: none;
+}
+
+.social {
+    margin-right: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    color: var(--black);
+    background-color: var(--white);
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+@media (max-width: 715px) {
+    .containerHeader {
+        right: 7%;
+    }
+}

@@ -1,0 +1,23 @@
+.container-empty {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.empty-text {
+    color: var(--white);
+    line-height: 30px;
+}
+
+.empty-button {
+    margin-top: 40px;
+    color: var(--black);
+    font-weight: bold;
+    background-color: var(--white);
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+}
